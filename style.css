@@ -4,21 +4,24 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
   color: #222;
   line-height: 1.6;
-  background: #ffffff;
+
+  /* Page-wide background image */
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.65),
+      rgba(255, 255, 255, 0.65)
+    ),
+    url("images/reneft--bgcomp.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-/* Hero section with clearer background image */
+/* Hero section */
 .hero {
   min-height: 70vh;
   padding: 120px 20px;
-  background-image:
-    linear-gradient(
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.8)
-    ),
-    url("images/reneft--bgcomp.jpg");
-  background-size: cover;
-  background-position: center;
 }
 
 /* Center hero content */
@@ -29,11 +32,13 @@ body {
   margin-right: auto;
 }
 
-/* Section layout */
+/* Content sections appear on white cards */
 .section {
+  background: #ffffff;
   padding: 60px 20px;
   max-width: 900px;
-  margin: auto;
+  margin: 40px auto;
+  border-radius: 4px;
 }
 
 /* Headings */
@@ -58,7 +63,7 @@ ul {
   padding-left: 20px;
 }
 
-/* Contact section background */
+/* Contact section */
 .contact {
   background: #f6f6f6;
 }
