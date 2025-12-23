@@ -1,0 +1,71 @@
+/* Base reset */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  color: #222;
+  line-height: 1.6;
+  background: #ffffff;
+}
+
+/* Hero section with background image */
+.hero {
+  padding: 110px 20px;
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("images/reneft--bgcomp.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Center hero content */
+.hero h1,
+.hero p {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Section layout */
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Headings */
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.section h3 {
+  margin-top: 30px;
+  font-size: 1.3rem;
+}
+
+/* Subtitle */
+.subtitle {
+  font-style: italic;
+  color: #555;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+/* Contact section background */
+.contact {
+  background: #f6f6f6;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
