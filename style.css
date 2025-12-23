@@ -21,7 +21,7 @@ body {
 /* Hero section */
 .hero {
   min-height: 70vh;
-  padding: 120px 20px;
+  padding: 120px 20px 60px; /* reduced bottom padding */
 }
 
 /* Hero text – darker ONLY here */
@@ -48,6 +48,11 @@ body {
   max-width: 900px;
   margin: 40px auto;
   border-radius: 4px;
+}
+
+/* Reduce gap between hero and first section (About Us) */
+.section:first-of-type {
+  margin-top: 20px;
 }
 
 /* Headings */
