@@ -7,13 +7,14 @@ body {
   background: #ffffff;
 }
 
-/* Hero section with background image */
+/* Hero section with clearer background image */
 .hero {
-  padding: 110px 20px;
+  min-height: 70vh;
+  padding: 120px 20px;
   background-image:
     linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
     ),
     url("images/reneft--bgcomp.jpg");
   background-size: cover;
