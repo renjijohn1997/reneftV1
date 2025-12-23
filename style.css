@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-  color: #222;
   line-height: 1.6;
+  color: #222;
 
   /* Page-wide background image */
   background-image:
@@ -24,15 +24,24 @@ body {
   padding: 120px 20px;
 }
 
-/* Center hero content */
-.hero h1,
+/* Hero text – darker ONLY here */
+.hero h1 {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #111;
+  font-weight: 700;
+}
+
 .hero p {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  color: #222;
+  font-weight: 500;
 }
 
-/* Content sections appear on white cards */
+/* Content sections on white cards */
 .section {
   background: #ffffff;
   padding: 60px 20px;
