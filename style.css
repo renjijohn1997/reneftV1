@@ -241,8 +241,11 @@ body {
 .contact-item svg {
   width: 18px;
   height: 18px;
-  fill: #d16a6a; /* matches your accent tone */
+  min-width: 18px;
+  min-height: 18px;
+  fill: #d16a6a;
   flex-shrink: 0;
+  display: block;
 }
 
 .contact-item a {
