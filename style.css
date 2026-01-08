@@ -259,6 +259,11 @@ html::before {
   opacity: 0.22;
 }
 
+.cta-line {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
 
 /* =========================
    FOOTER
