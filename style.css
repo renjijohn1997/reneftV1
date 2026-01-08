@@ -243,10 +243,11 @@ body {
   height: 18px;
   min-width: 18px;
   min-height: 18px;
-  fill: #d16a6a;
+  color: #d16a6a;
   flex-shrink: 0;
   display: block;
 }
+
 
 .contact-item a {
   color: #f2f2f2;
